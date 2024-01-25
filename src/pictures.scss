@@ -1,0 +1,16 @@
+.wrapper__pictures {
+    display: grid;
+    grid: {
+        template: {
+            columns: repeat(2, 1fr);
+            rows: repeat(2, 1fr);
+        }
+        gap: 10px;
+    }
+
+}
+
+img {
+    width: 250px;
+    height: 170px;
+}
